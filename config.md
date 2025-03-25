@@ -18,6 +18,14 @@ ssh-keygen -t rsa -b 4096 -C "email@gmail.com"
 ```
 - Thay `"email@gmail.com"` bằng email GitHub của bạn.  
 - Nhấn **Enter** liên tục để chấp nhận đường dẫn mặc định (`~/.ssh/id_rsa`).
+- 🎯 Cách nhớ dễ dàng
+
+Bạn có thể nhớ theo mẫu:
+📌 SSH + Type (rsa) + Bits (4096) + Comment (email)
+→ "SSH-TBC": SSh - Type - Bits - Comment
+
+✅ Hoặc nhớ câu này:
+💡 "SSH tạo key RSA 4096-bit, gán email để nhận diện."
 
 #### 📌 **Bước 3: Thêm SSH key vào ssh-agent**  
 Chạy lần lượt:
